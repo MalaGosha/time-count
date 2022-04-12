@@ -28,7 +28,7 @@ const showSettings = () => {
 
 const appUpdate = () => {
   eventSpan.textContent = eventName.value;
-  usersTime = new Date(`${eventDay.value} ${eventMonth.value} ${eventYear.value}`);
+  usersTime = new Date(`${eventMonth.value} ${eventDay.value} ${eventYear.value}`);
   if(eventImage.value === 'default.jpg'){
     imageSection.style.backgroundImage = eventImage.value;
   } else {
