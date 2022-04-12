@@ -30,7 +30,7 @@ const appUpdate = () => {
   eventSpan.textContent = eventName.value;
   usersTime = new Date(`${eventDay.value} ${eventMonth.value} ${eventYear.value}`);
   if(eventImage.value === 'default.jpg'){
-    imageSection.style.backgroundImage = eventImage
+    imageSection.style.backgroundImage = eventImage.value;
   } else {
     imageSection.style.backgroundImage = `url(${eventImage.value})`
   }
