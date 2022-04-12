@@ -33,7 +33,7 @@ body {
 .image-section {
   position: relative;
   height: 400px;
-  background-image: url("../img/default.jpg");
+  background-image: url("../img/fireworks.jpg");
   background-size: cover;
   background-position: center;
 }
